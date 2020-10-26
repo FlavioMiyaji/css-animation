@@ -121,9 +121,14 @@ form.form-hide {
 
 @keyframes down {
   from {
+    opacity: 0;
     transform: translateY(0);
   }
+  50% {
+    opacity: 1;
+  }
   to {
+    opacity: 0;
     transform: translateY(100vh);
   }
 }
@@ -142,5 +147,28 @@ form.validate-error {
   }
   66% {
     transform: translateX(15%);
+  }
+}
+
+/* Criar alguns quadrados animados (que fiquem girando) e que saem de baixo da tela (fora do campo de visão) e vão para cima da tela (que saia do campo de visão também). */
+body {
+  overflow: hidden;
+}
+.squares li {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, .15);
+  display: block;
+  position: absolute;
+  bottom: -40px;
+  animation: goup 2s infinite alternate;
+}
+
+@keyframes goup {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-110vh) rotate(960deg);
   }
 }

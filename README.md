@@ -9,7 +9,7 @@ Animated form with pure JS and CSS Animation
 - [x] 4º - Remover formulário do html e não mostrar rolagem enquanto o formulário está saindo da tela
 - [x] 5º - Adicionar um efeito diferente de timing para a saída do formulário
 - [x] 6º - Fazer o formulário dizer não-não (vibrar) caso haja campos vazios.
-- [ ] 7º - Criar alguns quadrados animados (que fiquem girando) e que saem de baixo da tela (fora do campo de visão) e vão para cima da tela (que saia do campo de visão também). _Detalhes_: Deve ter tamanhos diferentes, sairem em momentos diferentes, terem timing diferente, animação contínua.
+- [x] 7º - Criar alguns quadrados animados (que fiquem girando) e que saem de baixo da tela (fora do campo de visão) e vão para cima da tela (que saia do campo de visão também). _Detalhes_: Deve ter tamanhos diferentes, sairem em momentos diferentes, terem timing diferente, animação contínua.
 
 ## Animation
 
