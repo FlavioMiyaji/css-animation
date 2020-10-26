@@ -114,9 +114,7 @@ form .btn-login {
   }
 }
 
-/* Adicionar um efeito diferente de timing para a saída do formulário */
-
-.form-hide {
+form.form-hide {
   animation: down 1.2s forwards;
   animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
@@ -127,5 +125,24 @@ form .btn-login {
   }
   to {
     transform: translateY(100vh);
+  }
+}
+
+/* Fazer o formulário dizer não-não (vibrar) caso haja campos vazios. */
+
+form.validate-error {
+  animation: nono .3s linear, fade paused;
+  animation-iteration-count: 2;
+}
+
+@keyframes nono {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  33% {
+    transform: translateX(-15%);
+  }
+  66% {
+    transform: translateX(15%);
   }
 }
