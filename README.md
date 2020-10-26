@@ -3,13 +3,13 @@ Animated form with pure JS and CSS Animation
 
 ## Desafios
 
-- [x] Fazer o formulário aparecer, suavemente, quando a página abrir
-- [x] Fazer os campos aparecem da esquerda pra direita, suavizando a entrada e fazendo-os entrar em momentos distintos
-- [x] Quando clicar em Login, fazer o formulário sair da tela, indo para baixo
-- [ ] Remover formulário do html e não mostrar rolagem enquanto o formulário está saindo da tela
-- [ ] Adicionar um efeito diferente de timing para a saída do formulário
-- [ ] Fazer o formulário dizer não-não (vibrar) caso haja campos vazios.
-- [ ] Criar alguns quadrados animados (que fiquem girando) e que saem de baixo da tela (fora do campo de visão) e vão para cima da tela (que saia do campo de visão também). _Detalhes_: Deve ter tamanhos diferentes, sairem em momentos diferentes, terem timing diferente, animação contínua.
+- [x] 1º - Fazer o formulário aparecer, suavemente, quando a página abrir
+- [x] 2º - Fazer os campos aparecem da esquerda pra direita, suavizando a entrada e fazendo-os entrar em momentos distintos
+- [x] 3º - Quando clicar em Login, fazer o formulário sair da tela, indo para baixo
+- [x] 4º - Remover formulário do html e não mostrar rolagem enquanto o formulário está saindo da tela
+- [ ] 5º - Adicionar um efeito diferente de timing para a saída do formulário
+- [ ] 6º - Fazer o formulário dizer não-não (vibrar) caso haja campos vazios.
+- [ ] 7º - Criar alguns quadrados animados (que fiquem girando) e que saem de baixo da tela (fora do campo de visão) e vão para cima da tela (que saia do campo de visão também). _Detalhes_: Deve ter tamanhos diferentes, sairem em momentos diferentes, terem timing diferente, animação contínua.
 
 ## Animation
 
